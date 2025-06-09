@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
