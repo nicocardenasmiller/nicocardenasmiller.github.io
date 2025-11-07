@@ -4,7 +4,7 @@ title:
 subtitle: 
 ---
 
-![Portrait](https://beautifuljekyll.com/assets/img/crepe.jpg)
+![Portrait](2 Headshot Nicolas.MP.jpg)
 
 ## Welcome!
 <br/>
