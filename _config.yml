@@ -13,19 +13,16 @@
 title: Nicolás Cárdenas-Miller
 
 # Your name to show in the footer
-author: Some Person
+author: Nicolás Cárdenas-Miller
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-
+  Research: "research"
+  Curriculum Vitae: "cv"
+  
 ################
 # --- Logo --- #
 ################
