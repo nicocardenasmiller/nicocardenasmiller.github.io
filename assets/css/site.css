@@ -76,7 +76,7 @@ a:focus-visible { outline: 2px solid var(--carolina); outline-offset: 2px; }
   content: "";
   position: absolute;
   inset: 12px -12px -12px 12px;
-  background: var(--carolina);
+  background: var(--navy);
 }
 .portrait img { position: relative; display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
 
