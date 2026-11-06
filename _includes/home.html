@@ -1,0 +1,58 @@
+{%- assign t = site.data.home[include.lang] -%}
+<div class="page">
+  <aside class="rail">
+    <figure class="portrait">
+      <img src="{{ '/assets/img/portrait.jpg' | relative_url }}" alt="{{ t.alt }}" width="800" height="975">
+    </figure>
+
+    <section class="rail-block">
+      <h2>{{ t.interests }}</h2>
+      <p>{{ t.interest_list }}</p>
+    </section>
+
+    <section class="rail-block" id="contact">
+      <h2>{{ t.contact }}</h2>
+      <ul>
+        <li><a href="mailto:{{ site.social-network-links.email }}">{{ site.social-network-links.email }}</a></li>
+        <li><a href="https://orcid.org/{{ site.social-network-links.ORCID }}">ORCID</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ site.social-network-links.linkedin }}">LinkedIn</a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <main class="content">
+    <section id="about">
+      <h1>{{ t.about }}</h1>
+      {%- for p in t.bio %}
+      <p>{{ p }}</p>
+      {%- endfor %}
+    </section>
+
+    <section id="publications">
+      <h2>{{ t.publications }}</h2>
+      {%- for pub in site.data.publications %}
+      <article class="pub">
+        <p class="pub-meta">{{ pub.year }} | <em>{{ pub.journal }}</em></p>
+        <h3>{{ pub.title }}</h3>
+        {%- assign n = pub.coauthors | size %}
+        <p class="pub-authors">{{ t.coauthors_prefix }}
+          {%- for a in pub.coauthors -%}
+            {%- if forloop.first %} {% elsif forloop.last %}{% if n > 2 and include.lang == "en" %},{% endif %} {{ t.and_word }} {% else %}, {% endif -%}
+            {{ a }}
+          {%- endfor -%}
+        </p>
+        <p class="pub-links">
+          {%- if pub.pdf %}<a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}
+          {%- if pub.doi %}<a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}
+        </p>
+      </article>
+      {%- endfor %}
+    </section>
+
+    <section id="cv">
+      <h2>{{ t.cv }}</h2>
+      <p>{{ t.cv_line }}</p>
+      <a class="button" href="{{ '/user_materials/Cardenas-Miller_CV.pdf' | relative_url }}">{{ t.cv_button }}</a>
+    </section>
+  </main>
+</div>

@@ -1,0 +1,41 @@
+en:
+  title: "Nicolás Cárdenas-Miller"
+  description: "Nicolás Cárdenas-Miller, PhD student in political science at the University of North Carolina at Chapel Hill, studying comparative political economy."
+  role: "PhD Student, Department of Political Science, University of North Carolina at Chapel Hill"
+  about: "About"
+  interests: "Research interests"
+  interest_list: "Comparative political economy, trade preferences, international capital, Latin America"
+  contact: "Contact"
+  alt: "Portrait of Nicolás Cárdenas-Miller"
+  bio:
+    - 'My name is Nicolás Cárdenas-Miller. I hold Bachelors of Science degrees at <a href="https://www.psu.edu/">the Pennsylvania State University, University Park</a> in economics and political science. Currently I am a PhD student in political science at the <a href="https://politicalscience.unc.edu/">University of North Carolina, Chapel Hill</a>.'
+    - 'I study comparative political economy. Specifically, I am interested in looking at the ways in which firm changes and trade affect political ideology in Latin America. My previous research has examined Chilean political ideology, visual attention and memory, and vowel illusions in L2 speech perception. My work in visual attention and memory has been published in the <em>Memory and Cognition Journal</em> in 2023.'
+    - 'My passions outside of academics include reading, long distance running, and playing guitar.'
+  publications: "Publications"
+  coauthors_prefix: "With"
+  and_word: "and"
+  cv: "Curriculum vitae"
+  cv_line: "Most recent CV, updated April 2026."
+  cv_button: "Download CV (PDF)"
+  language: "Language"
+
+es:
+  title: "Nicolás Cárdenas-Miller"
+  description: "Nicolás Cárdenas-Miller, estudiante de doctorado en ciencia política en la Universidad de Carolina del Norte en Chapel Hill. Economía política comparada."
+  role: "Estudiante de doctorado, Departamento de Ciencia Política, Universidad de Carolina del Norte en Chapel Hill"
+  about: "Sobre mí"
+  interests: "Temas de investigación"
+  interest_list: "Economía política comparada, preferencias comerciales, capital internacional, América Latina"
+  contact: "Contacto"
+  alt: "Retrato de Nicolás Cárdenas-Miller"
+  bio:
+    - 'Me llamo Nicolás Cárdenas-Miller. Tengo títulos de Bachelor of Science en economía y ciencia política de <a href="https://www.psu.edu/">la Universidad Estatal de Pensilvania, University Park</a>. Actualmente soy estudiante de doctorado en ciencia política en la <a href="https://politicalscience.unc.edu/">Universidad de Carolina del Norte en Chapel Hill</a>.'
+    - 'Estudio economía política comparada. En particular, me interesa analizar cómo los cambios en las empresas y el comercio afectan la ideología política en América Latina. Mi investigación anterior ha examinado la ideología política chilena, la atención visual y la memoria, y las ilusiones vocálicas en la percepción del habla en una segunda lengua. Mi trabajo sobre atención visual y memoria fue publicado en <em>Memory and Cognition</em> en 2023.'
+    - 'Fuera de lo académico, me apasiona la lectura, correr largas distancias y tocar guitarra.'
+  publications: "Publicaciones"
+  coauthors_prefix: "Con"
+  and_word: "y"
+  cv: "Currículum"
+  cv_line: "CV más reciente, actualizado en abril de 2026."
+  cv_button: "Descargar CV (PDF)"
+  language: "Idioma"

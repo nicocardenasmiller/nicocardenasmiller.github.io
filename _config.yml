@@ -19,9 +19,7 @@ author: Nicolás Cárdenas-Miller
 # --- List of links in the navigation bar --- #
 ###############################################
 
-navbar-links:
-  Research: "research"
-  Curriculum Vitae: "cv"
+navbar-links: {}
 
 
 #####################################
@@ -246,7 +244,7 @@ defaults:
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
-      layout: "page"
+      layout: "site"
 
 # Exclude these files from production site
 exclude:
@@ -258,6 +256,10 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  - _posts
+  - tags.html
+  - feed.xml
+  - staticman.yml
 
 plugins:
   - jekyll-paginate
